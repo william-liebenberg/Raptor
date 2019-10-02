@@ -17,8 +17,7 @@ export class AppComponent implements OnInit {
         const options = {
             headers: new HttpHeaders({
                 'Content-Type': 'application/json',
-                'Cache-Control': 'no-cache',
-                'Yo-mamma': 'so-biiig'
+                'Cache-Control': 'no-cache'
             })
         };
 
